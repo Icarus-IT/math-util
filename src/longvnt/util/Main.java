@@ -4,7 +4,9 @@
  * and open the template in the editor.
  */
 package longvnt.util;
-
+// import static fu.util.MatchUtility.getFactory; .*
+// câu lệnh từ JDK 8(5) khai báo sẵn hàm static
+//ở dưới gọi hàm static 
 /**
  *
  * @author USER
@@ -24,5 +26,8 @@ public class Main {
         
         //expected: IllegalArgumentException if tính -5
         System.out.println("-5!: "+MathUtility.getFactorial(-5));
+        
+        //int thử PI coi có giống Math.PI he,?
+        System.out.println("PI: "+ MathUtility.PI);
     }
 }

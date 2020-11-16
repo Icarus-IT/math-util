@@ -34,3 +34,14 @@ public class MathUtility {
     }
     
 }
+//muốn kết luận hàm mình ngon, thì ta phải nhìn bằng mắt kết quả chạy của hàm
+//và so sanh vs kì vọng
+// làm từng trường hop575 chạy hàm, test case
+//cách này ổn nhưng tốt sức,
+//nâng cao: DÙNG MÀU SẮC, XANH, ĐỎ ĐỂ KẾT LUẬN.
+//TA THẤY XANH, HÀM Ý MỌI TÌNH HUỐNG ỔN
+// TA THẤY ĐỎ, CHỈ 1 THẰNG ĐỎ, COI NHƯ HÀM TOANG
+// TA XÀI THÊM 1 FRAMEWORK, UNIT TEST TÊN CHUNG
+// JUNIT, TESTNG,NUNIT,.. LÀ NHỮNG FRAMEWORK CỤ THỂ ĐỂ GIÚP TEST CÁC HÀM 
+//MỘT CÁCH HIỆU QUẢ
+// DÙNG NÓ TA TÍCH HỢP VÀO 1 QUY TRÌNH LÀM PHẦN MỀM LỚN HƠN. CI-CT-CD

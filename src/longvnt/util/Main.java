@@ -23,11 +23,13 @@ public class Main {
         System.out.println("6!: "+MathUtility.getFactorial(6));
         //expected: 1 nếu tính 1!
         System.out.println("0!: "+MathUtility.getFactorial(0));
-        
+        System.out.println("Goodbye and good luck to you all the FINAL EXAM");
+        System.out.println("Hope that you all will get the GREEN ICON");
         //expected: IllegalArgumentException if tính -5
         System.out.println("-5!: "+MathUtility.getFactorial(-5));
         
         //int thử PI coi có giống Math.PI he,?
         System.out.println("PI: "+ MathUtility.PI);
+        
     }
 }

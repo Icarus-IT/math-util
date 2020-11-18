@@ -48,7 +48,7 @@ public class MathUtility {
     //1!=1, quy ước r, dừng, hồi ngược lại lên trên ra 5!
     // kết luận n!=n*(n-)!
     public static long getFactorial (int n){
-        if (n<0||n>0) throw new IllegalArgumentException("n must be between 0..20");
+        if (n<0||n>20) throw new IllegalArgumentException("n must be between 0..20");
         if (n==0||n==1) return 1;// điều kiện dừng, lùi n mãi cũng phải dừng
         //n>1 &n<=20 rồi, rấp công thức đệ quy
         return n*getFactorial(n-1);
